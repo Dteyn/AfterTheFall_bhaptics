@@ -11,5 +11,5 @@ del temp_download.zip
 if not exist "BepInEx\plugins" mkdir BepInEx\plugins
 
 :: Get bhaptics mod and dependencies
-powershell -Command "Invoke-WebRequest https://github.com/floh-bhaptics/AfterTheFall_bhaptics/releases/latest/download/AfterTheFall_bhaptics.dll -OutFile BepInEx\plugins\AfterTheFall_bhaptics.dll"
-powershell -Command "Invoke-WebRequest https://github.com/floh-bhaptics/AfterTheFall_bhaptics/releases/latest/download/bhaptics_library.dll -OutFile BepInEx\plugins\bhaptics_library.dll"
+powershell -Command "Invoke-WebRequest https://github.com/Dteyn/AfterTheFall_bhaptics/releases/latest/download/AfterTheFall_bhaptics.dll -OutFile BepInEx\plugins\AfterTheFall_bhaptics.dll"
+powershell -Command "Invoke-WebRequest https://github.com/Dteyn/AfterTheFall_bhaptics/releases/latest/download/bhaptics_library.dll -OutFile BepInEx\plugins\bhaptics_library.dll"
